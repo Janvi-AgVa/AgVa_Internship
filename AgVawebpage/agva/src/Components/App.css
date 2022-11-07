@@ -2,19 +2,22 @@
 .NavBar{  
   margin-top: 0%;
   display: flex;
-  border: rgb(235, 230, 230) 2px solid;
+
+  overflow: hidden;
+  
 }
-.logo{
-  margin-top: 17px;
-  margin-left: 10px;
-  color: rgb(184, 8, 66);
+img{
+  padding: 0;
+  margin: 0;
+  height: 80px;
+  width: 350px;
 }
 .NavBar ul{
   padding: 0;
  
-  margin-right: 120px;
+  margin-right: 90px;
   display: flex;
-  margin-left: 850px;
+  margin-left: 1000px;
 }
 .NavBar ul li{
   float: left;
@@ -22,16 +25,15 @@
   margin-left: 30px;
   margin-right: 30px;
 
+
 }
 .NavBar ul li a{
   color: rgb(134, 134, 134);
+  text-decoration: none;
+ 
 }
 .NavBar ul li :hover{
-  color: rgb(184, 8, 66); ;
+  color: rgb(184, 8, 66); 
+  border-bottom: 1px solid rgb(184, 8, 66);;
   
-}
-.Main{
- text-align: center;
-  height: 1000px;
-  background-color: rgb(212, 208, 208);
 }

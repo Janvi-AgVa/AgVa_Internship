@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import video from "/home/agva/Desktop/JanviGupta/scroll/video/src/video.mp4";
 import sample from "/home/agva/Desktop/JanviGupta/scroll/video/src/sample.mp4";
 import small from "/home/agva/Desktop/JanviGupta/scroll/video/src/small.mp4";
+import LOGO from "/home/agva/Desktop/JanviGupta/scroll/video/src/agva-healthcare-removebg-preview.png";
 function Page() {
   const videoRef = useRef(null);
   const Ref = useRef(null);
@@ -95,6 +96,7 @@ function Page() {
         width={windowSize.width}
         loop
       />
+      <image src={LOGO} className="logo"/>
     </>
   );
 }

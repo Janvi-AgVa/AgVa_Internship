@@ -78,6 +78,7 @@ function Page() {
         src={sample}
         height={windowSize.height}
         width={windowSize.width}
+        
         loop
       />
       <video
